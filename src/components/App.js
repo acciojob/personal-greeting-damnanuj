@@ -7,7 +7,7 @@ const App = () => {
   
   function getValue(event){
   // console.log(event.target.value);
-  let greet = `Hello ${event.target.value} !`
+  let greet = `Hello ${event.target.value}!`
   setText(greet)
   // setText(event.target.value);
   
