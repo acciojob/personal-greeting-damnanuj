@@ -4,10 +4,13 @@ import './../styles/App.css';
 
 const App = () => {
   const [text, setText] = useState("");
-
+  
   function getValue(event){
   // console.log(event.target.value);
-  setText(event.target.value);
+  let greet = `Hello ${event.target.value}`
+  setText(greet)
+  // setText(event.target.value);
+  
   }
   return (
     <div>
