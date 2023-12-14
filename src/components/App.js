@@ -11,8 +11,10 @@ const App = () => {
   }
   return (
     <div>
-        <label>Enter your name:</label> <br/>
+      <form>
+        <label>Enter your name:</label>
         <input onChange={getValue} type="text" />
+      </form>
         <p>{text}</p>
     </div>
   )
